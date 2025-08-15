@@ -21,3 +21,8 @@ au BufRead,BufNewFile  *.conf  setf dosini
 
 "  set mouse=a
 set mouse-=a
+
+" enable split mode: :split or :vsplit
+" Cycle through splits.
+" in split mode change keys  Ctrl-w w or Ctrl-w Ctrl-w: (Cycle through splits)  to Shift-Tab
+nnoremap <S-Tab> <C-w>w
